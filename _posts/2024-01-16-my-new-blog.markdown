@@ -3,7 +3,9 @@ layout: "post"
 title: "My New Blog"
 ---
 
-For awhile, I have doubts and concerns about my blog. I have used various blog platform such as Blogger, Wordpres, and Medium. Wordpress was probably the one that lasted longest to me. They have social-media like system, in which I have made some acquintances over time. Blogger was perhaps the simplest. It's basically just a content management system where I write my posts and not worry over the views, followers, and all that stuff. Medium was the one I used recently. It's great, it's minimalistic, it's easy. However, one thing that I don't really like from these blogging platform is: 
+For awhile, I have doubts and concerns about my blog. I have used various blog platform such as Blogger, Wordpres, and Medium. Recently, I want something new. 
+
+Wordpress was probably the one that lasted longest to me. They have social-media like system, in which I have made some acquintances over time. Blogger was perhaps the simplest. It's basically just a content management system where I write my posts and not worry over the views, followers, and all that stuff. Medium was the one I used recently. It's great, it's minimalistic, it's easy. However, one thing that I don't really like from these blogging platform is: 
 
 I feel like I don't have the ownership of my content -- in other words -- I hate seeing my content displaying ads. Which most of the times does not have any relevance to my content. I also think that if I want to share something, at this point, I should make it available to as many people as possible - not limited by paywall or annoying ads.
 

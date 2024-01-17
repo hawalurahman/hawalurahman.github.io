@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# My name is Halim
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Halim W. Awalurahman is a postgraduate student of Computer Science, Faculty of Computer Science, Universitas Indonesia and assistant editor of [Journal of Information Systems Engineering and Business Intelligence 
+(JISEBI)](https://e-journal.unair.ac.id/JISEBI/index). Halim received his bachelor degree from Information Systems study program Universitas Airlangga. His research interest include information extraction, natural language 
+processing, software engineering, and information systems.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# This is my website
 
+I want to have a space where I can write things and share my updates and publications. I want to reach you and provide convenient when reading my content. No ads are allowed on this site. I just want simplicity. What matters the most is the story.
 
-[jekyll-organization]: https://github.com/jekyll
+# How can we connect
+
+Send me an email: [hawalurahman@gmail.com](mailto:hawalurahman@gmail.com)
