@@ -13,7 +13,7 @@ layout: default
 
 ## Hi, my name is Halim
 
-I am a computer science student. I do little research and write for fun. I am fascinated by natural language processing although I consider myself as a beginner in the field. I am currently studying Language Models (LM) and trying to make something useful out of it. Have any ideas? 
+I am a computer science student. I do little research and write for fun. I am interested in natural language processing although I consider myself as a beginner in the field. [Get to know me.](/about/)
 
 ## This website
 
