@@ -1,3 +1,8 @@
+---
+layout: post
+title: Connecting Jekyll to Obsidian
+---
+
 This post is created using Obsidian.
 
 My workaround is following:
