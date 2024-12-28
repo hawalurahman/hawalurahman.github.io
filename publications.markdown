@@ -7,7 +7,8 @@ permalink: /publications/
 
 ### 2024
 
--
+- [Paragraph vs Sentence in Automatic Question Generation Fine-Tuning using Text-to-Text Transfer Transformer for Bahasa Indonesia](https://doi.org/10.1109/ICET64717.2024.10778465)
+- [Automatic Distractor Generation in Multiple-Choice Questions: A Systematic Literature Review](https://peerj.com/articles/cs-2441/)
 
 ### 2023
 
