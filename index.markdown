@@ -9,22 +9,21 @@ layout: homepage
 
 [This is a comment that will be hidden.]: # 
 
-# Welcome
 
-## Hi, my name is Halim
+# Halim W. Awalurahman
 
-I am a computer science student. I do little research and write for fun. I am interested in natural language processing although I consider myself as a beginner in the field. [Get to know me.](/about/)
+Postgraduate Student at Faculty of Computer Science, Universitas Indonesia
 
-![halim-close-up](/assets/img/IMG_0256.jpg)
+Currently researching: Natural Language Processing, Automatic Question Generation, Transformer Models, and Large Language Models
 
-## This website
+## Latest Publications 
 
-I want to have a space where I can write things and share my updates and publications. I want to reach you and provide convenient when reading my content. No ads are allowed on this site. I just want simplicity. What matters the most is the story.
+- Awalurahman, H. W., & Budi, I. (2024, October). **Paragraph vs Sentence in Automatic Question Generation Fine-Tuning using Text-to-Text Transfer Transformer for Bahasa Indonesia**. *In 2024 10th International Conference on Education and Technology (ICET)* (pp. 155-161). IEEE. [Paper](https://doi.org/10.1109/ICET64717.2024.10778465)
+- Awalurahman, H. W., & Budi, I. (2024). **Automatic distractor generation in multiple-choice questions: a systematic literature review**. *PeerJ Computer Science*, 10, e2441. [Paper](https://peerj.com/articles/cs-2441/)
 
-Navigate through the mess:
+##### <font color="grey">updated: January 18th, 2025</font>
 
-#### [Read my random thoughts >>](/posts/)
 
-#### [My publications >>](/publications/)
+
 
 
