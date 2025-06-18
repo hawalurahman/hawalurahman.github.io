@@ -1,58 +1,67 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+  html {
+    overflow-y: scroll;
+  }
+  
   /* Media Query for Responsiveness */
   @media (max-width: 600px) {
     .container {
-      flex-direction: column !important; /* Stacks items vertically */
+      flex-direction: column !important;
+      /* Stacks items vertically */
     }
+
     .item {
-      flex: 1 1 100% !important; /* Items take full width */
+      flex: 1 1 100% !important;
+      /* Items take full width */
     }
+
     .left_bar {
-      display: flex; 
-      flex-wrap: wrap; 
-      justify-content: space-around; 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
       gap: 20px;
       flex-direction: row !important;
     }
+
     .profile_picture {
       max-width: 30%;
     }
   }
 </style>
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; " class="container">
-          <div style="flex: 1.5;">
-            <div class="left_bar">
-              <img src="assets/img/IMG_0256.jpg" alt="", style="margin-bottom: 10px;" class="profile_picture">
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; " class="container">
+        <div style="flex: 1.5;">
+          <div class="left_bar">
+            <img src="assets/img/IMG_0256.jpg" alt="" , style="margin-bottom: 10px;" class="profile_picture">
             <p>
               📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
               <br>🐙 <a href="http://github.com/{{site.github_username}}">{{ site.github_username }}</a>
               <br>🤗 <a href="http://huggingface.co/hawalurahman">hawalurahman</a>
               <br>🔗 <a href="http://linkedin.com/in/{{site.linkedin_username }}">{{site.linkedin_username }}</a>
-          </p>
-            </div>
-            
+            </p>
           </div>
-          <div style="flex: 3;">
-            {{ content }}
-            </div>
+
+        </div>
+        <div style="flex: 3;">
+          {{ content }}
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <!-- {%- include footer.html -%} -->
+  <!-- {%- include footer.html -%} -->
 
-  </body>
+</body>
 
 </html>
