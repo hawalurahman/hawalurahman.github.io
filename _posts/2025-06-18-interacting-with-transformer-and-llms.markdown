@@ -9,7 +9,7 @@ Here are several codes that I often use to interact with Large Language Models (
 
 You need to login when you want to access gated repositories such as Llama and Mistral. 
 
-```
+```python
 from huggingface_hub import login
 
 login(token="insert_your_token")
@@ -21,7 +21,7 @@ Pipeline is simpler to interact since we do not have to think or maintain how to
 
 ### big boi LLMs
 
-```
+```python
 import transformers
 import torch
 
@@ -42,7 +42,7 @@ notes:
 
 ### smaller fine dudes
 
-```
+```python
 from transformers import pipeline
 
 pipe = pipeline("text2text-generation", model="hawalurahman/idt5-base-qaqg-extend")
@@ -52,7 +52,7 @@ pipe = pipeline("text2text-generation", model="hawalurahman/idt5-base-qaqg-exten
 
 Yepp, this is the manual way. See the difference? Pipeline handles everything from inputs to decoding the output from Transformers. 
 
-```
+```python
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 tokenizer = AutoTokenizer.from_pretrained("hawalurahman/idt5-base-qaqg-extend")
@@ -72,7 +72,7 @@ notes:
 
 I like to use prompting provided with pipeline. 
 
-```
+```python
 prompt1 = [
     {"role": "user", 
     "content": "write_the_prompt_here"}
@@ -83,7 +83,7 @@ response = pipe(prompt1)
 
 You can also wrap it in a function if you have more context. We wrap additional context via f-string. 
 
-```
+```python
 def prompt1(context1, context2):
     prompt = [
         {"role": "user", 
