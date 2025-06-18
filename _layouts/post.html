@@ -15,7 +15,7 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <p>this is a test by halim</p>
+  
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -26,3 +26,40 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<!-- SCRIPT TO COPY CODE BLOCKS -->
+
+<!-- Clipboard.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("pre > code").forEach((codeBlock, index) => {
+    const pre = codeBlock.parentElement;
+
+    // Wrap the <pre> in a div
+    const wrapper = document.createElement("div");
+    wrapper.className = "code-wrapper";
+    pre.parentNode.insertBefore(wrapper, pre);
+    wrapper.appendChild(pre);
+
+    // Add copy button
+    const button = document.createElement("button");
+    const id = `codeblock-${index}`;
+    codeBlock.setAttribute("id", id);
+    button.className = "copy-btn";
+    button.setAttribute("data-clipboard-target", `#${id}`);
+    button.innerText = "Copy";
+
+    wrapper.appendChild(button);
+  });
+
+  // Init clipboard
+  new ClipboardJS(".copy-btn").on("success", e => {
+    const btn = e.trigger;
+    btn.textContent = "Copied!";
+    setTimeout(() => btn.textContent = "Copy", 2000);
+  });
+});
+</script>
+
