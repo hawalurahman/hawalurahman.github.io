@@ -7,12 +7,13 @@ permalink: /about/
 # My name is Halim
 
 Halim W. Awalurahman is a postgraduate student of Computer Science, Faculty of Computer Science, Universitas Indonesia and assistant editor of [Journal of Information Systems Engineering and Business Intelligence 
-(JISEBI)](https://e-journal.unair.ac.id/JISEBI/index). Halim received his bachelor degree from Information Systems study program Universitas Airlangga. His research interest include information extraction, natural language 
-processing, software engineering, and information systems.
+(JISEBI)](https://e-journal.unair.ac.id/JISEBI/index). Halim received his bachelor degree from Information Systems study program Universitas Airlangga and Master degree from Faculty of Computer Science, Universitas Indonesia. His research interest include question generation, transformer, large language models, natural language 
+processing, and software engineering.
 
 # Education
 
-- Master of Computer Science, Universitas Indonesia (2023 -- Now)
+- Doctor of Computer Science, Universitas Indonesia (2025 -- now)
+- Master of Computer Science, Universitas Indonesia (2023 -- 2025)
 - Bachelor of Computer Science, Universitas Airlangga (2019 -- 2023)
 
 # Experience

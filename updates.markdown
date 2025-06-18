@@ -4,17 +4,19 @@ title: Updates
 permalink: /updates/
 ---
 
-This page should display my updates.
+## 2025
+- Started study at Faculty of Computer Science, Universitas Indonesia (Doctor of Computer Science)
+- Graduated from Universitas Indonesia (Master of Computer Science)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## 2024
+- Published 1 article at ICET 2024
+- Published 1 article at PeerJ Computer Science
+- Received PMDSU Research Grant
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## 2023
+- Started study at Faculty of Computer Science, Universitas Indonesia (Master of Computer Science)
+- Received Pendidikan Magister menuju Doktor untuk Sarjana Unggul (PMDSU) Scholarship from the Ministry of Research, Technology, and Higher Education 
+- Graduated from Universitas Airlangga (Bachelor of Computer Science)
 
 
-[jekyll-organization]: https://github.com/jekyll
+
