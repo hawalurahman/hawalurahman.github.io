@@ -1,6 +1,6 @@
 ---
-layout: "post"
-title: "Interacting with Large Language Models and Transformers"
+layout: post
+title: Interacting with Large Language Models and Transformers
 ---
 
 Here are several codes that I often use to interact with Large Language Models (LLMs) and Transformers so I don't have to reopen my old jupyter notebooks and Hugging Face documentation:
