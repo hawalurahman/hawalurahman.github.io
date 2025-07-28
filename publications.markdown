@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+### 2025
+- Awalurahman, H. W., Aji, R. F., & Budi, I. (2025). **Transformer and Large Language Models for Automatic Multiple-Choice Question Generation: A Systematic Literature Review**. *IEEE Access*. [Paper](10.1109/ACCESS.2025.3590423)
 
 ### 2024
 
