@@ -1,8 +1,10 @@
 ---
 layout: page
+title: About
 permalink: /about/
 ---
 
+# Haim Wildan Awalurahman
 Student researcher | [Scholar](https://scholar.google.com/citations?user=kc6YyCoAAAAJ&hl=en) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=58279872800) | [ORCID](https://orcid.org/0009-0005-8136-9970)
 
 ## Education
