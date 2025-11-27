@@ -1,7 +1,7 @@
 ---
 layout: cv
-title: About
-permalink: /about/
+title: CV
+permalink: /cv/
 ---
 
 # Haim Wildan Awalurahman
