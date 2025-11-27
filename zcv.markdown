@@ -4,8 +4,11 @@ title: CV
 permalink: /cv/
 ---
 
-# [Halim Wildan Awalurahman](https://hawalurahman.github.io/)
-Student researcher - [Scholar](https://scholar.google.com/citations?user=kc6YyCoAAAAJ&hl=en) - [Scopus](https://www.scopus.com/authid/detail.uri?authorId=58279872800) - [ORCID](https://orcid.org/0009-0005-8136-9970)
+<h1 class="page-heading">
+  <a href="{{ "/" | relative_url }}">Halim Wildan Awalurahman</a>
+</h1>
+
+Student researcher / [Scholar](https://scholar.google.com/citations?user=kc6YyCoAAAAJ&hl=en) / [Scopus](https://www.scopus.com/authid/detail.uri?authorId=58279872800) / [ORCID](https://orcid.org/0009-0005-8136-9970)
 
 ## Education
 
