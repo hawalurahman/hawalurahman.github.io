@@ -4,29 +4,30 @@ title: About
 permalink: /about/
 ---
 
-# My name is Halim
+# Halim Wildan Awalurahman
+Student researcher | [Scholar](https://scholar.google.com/citations?user=kc6YyCoAAAAJ&hl=en) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=58279872800) | [ORCID](https://orcid.org/0009-0005-8136-9970)
 
-Halim W. Awalurahman is a postgraduate student of Computer Science, Faculty of Computer Science, Universitas Indonesia and assistant editor of [Journal of Information Systems Engineering and Business Intelligence 
-(JISEBI)](https://e-journal.unair.ac.id/JISEBI/index). Halim received his bachelor degree from Information Systems study program Universitas Airlangga and Master degree from Faculty of Computer Science, Universitas Indonesia. His research interest include question generation, transformer, large language models, natural language 
-processing, and software engineering.
+## Education
 
-# Education
+- (2025 - on going) **Ph.D., Universitas Indonesia** in Computer Science 
 
-- Doctor of Computer Science, Universitas Indonesia (2025 -- now)
-- Master of Computer Science, Universitas Indonesia (2023 -- 2025)
-- Bachelor of Computer Science, Universitas Airlangga (2019 -- 2023)
+    _Thesis topic_: Multiple-choice question generation
 
-# Experience
+- (2023 - 2025) **M.Sc. Computer Science, Universitas Indonesia** in Computer Science
 
-- Assistant Editor, [Journal of Information Systems Engineering and Business Intelligence](https://e-journal.unair.ac.id/JISEBI/index) (2023 -- Now)
-- Web Developer (Intern), Dinas Komunikasi dan Informatika Kota Madiun (2022)
-- UI/UX Researcher and Designer (Intern), VisitInd (2021)
+    _Thesis title_: Multi-Task Fine-Tuning Transformer Model with Prefix-Prepend Scheme for End-to-End Answer-Based Question Generation in Bahasa Indonesia
 
-# Organizations
+- (2019 - 2023) **B.Sc. Computer Science, Universitas Airlangga** in Information Systems
 
-- President, [Himpunan Mahasiswa S1 Sistem Informasi Universitas Airlangga](https://www.linkedin.com/company/himpunan-mahasiswa-s1-sistem-informasi-unair/) (2021)
-- Head of Legislative Commision, Badan Legislatif Mahasiswa, Fakultas Sains dan Teknologi, Universitas Airlangga (2020)
+    _Thesis title_: User Persona Generation from Online News for Software Requirements Elicitation
 
-# How can we connect
+## Publications
 
-Send me an email: [hawalurahman@gmail.com](mailto:hawalurahman@gmail.com)
+{% include publications.md %}
+
+## Experience
+
+- (2023 -- Now) Assistant Editor, [Journal of Information Systems Engineering and Business Intelligence](https://e-journal.unair.ac.id/JISEBI/index) 
+- (2022 - 2022) Web Developer (Intern), Dinas Komunikasi dan Informatika Kota Madiun 
+
+
