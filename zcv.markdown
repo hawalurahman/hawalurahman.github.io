@@ -10,7 +10,7 @@ permalink: /cv/
 
 Student researcher / [Scholar](https://scholar.google.com/citations?user=kc6YyCoAAAAJ&hl=en) / [Scopus](https://www.scopus.com/authid/detail.uri?authorId=58279872800) / [ORCID](https://orcid.org/0009-0005-8136-9970)
 
-## Education
+> ### Education
 
 - (2025 - on going) **Ph.D., Universitas Indonesia** in Computer Science <br> _Thesis topic_: Multiple-choice question generation
 
@@ -18,11 +18,11 @@ Student researcher / [Scholar](https://scholar.google.com/citations?user=kc6YyCo
 
 - (2019 - 2023) **B.Sc. Computer Science, Universitas Airlangga** in Information Systems <br> _Thesis title_: User Persona Generation from Online News for Software Requirements Elicitation
 
-## Publications
+> ### Publications
 
 {% include publications.md %}
 
-## Experience
+> ### Experience
 
 - (2023 -- Now) Assistant Editor, [Journal of Information Systems Engineering and Business Intelligence](https://e-journal.unair.ac.id/JISEBI/index) 
 - (2022 - 2022) Web Developer (Intern), Dinas Komunikasi dan Informatika Kota Madiun 
