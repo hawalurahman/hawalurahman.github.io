@@ -15,7 +15,7 @@ So to sum it up, my requirements were:
 - It has to be local
 - Light enough in terms of performance
 
-First I tried chat model with (LM Studio)[https://lmstudio.ai/]. LM Studio has a lot of options in terms of language model. This is the model that you use to generate text. I was planning to just show off some chatting interface. 
+First I tried chat model with [LM Studio](https://lmstudio.ai/). LM Studio has a lot of options in terms of language model. This is the model that you use to generate text. I was planning to just show off some chatting interface. 
 
 Then an idea came to my head, why don't I build the voice chat mode like the one GPT has?
 
@@ -23,14 +23,14 @@ So I further build the pipeline. I call it pipeline because it involves at least
 
 So the pipeline would be:
 
-my voice --> STT --> transcript --> LLM --> response --> TTS --> assitant voice
+my voice &rarr; STT &rarr; transcript &rarr; LLM &rarr; response &rarr; TTS &rarr; assitant voice
 
 As my requirements entail, I chose the smallest model out there. Here is the list of model I use:
-- (SpeechRecognition)[https://pypi.python.org/pypi/SpeechRecognition/] library for STT
-- (Kokoro)[https://huggingface.co/hexgrad/Kokoro-82M#usage] for TTS
-- (Gemma 3 1B)[https://huggingface.co/google/gemma-3-1b-it] for the 'brain'
+- [SpeechRecognition](https://pypi.python.org/pypi/SpeechRecognition/) library for STT
+- [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M#usage) for TTS
+- [Gemma 3 1B](https://huggingface.co/google/gemma-3-1b-it) for the 'brain'
 
-I am not gonna talk about technical stuff as you can read it from my (code)[https://github.com/hawalurahman/local-assistant]
+I am not gonna talk about technical stuff as you can read it from my [code](https://github.com/hawalurahman/local-assistant)
 
 Now here is my personal review and experience on this pipeline:
 - STT model works, but failed to capture punctuations. Plain text looks pretty boring to me and I am actually afraid the model would get confused. Due to my accent, model also failed to catch some phrase, especially if I speak a lil fast. But otherwise, they are doing okay given the small footprint.
@@ -42,3 +42,15 @@ Now here is my personal review and experience on this pipeline:
 Overall, I am satisfied with the result. To me, its a learning process which have been really interesting and satisfying. I genuinely enjoy learning about text to speech model and their variants out there. With the constraint that I have, I think my pipeline performed well. 
 
 More importantly, I get to show my friends on Instagram that I did talk to someone, though its just an AI 😂
+
+**Future Work**
+
+Here are some suggestions if you want to extend this work:
+1. Enable the chat memory to make Gemma remembers what you've talked about (in LMStudio)
+2. Tweak the voice recognition settings to allow more natural phrasing and pause for you
+3. Directly stream text and response so it feels more natural, or
+4. Adjust the generation and pausing speed
+5. Infuse punctuation into STT model
+6. Advanced: Connect a VLM and add camera module so your assistant can 'see' you and your surroundings
+
+I am open for collab 😉
