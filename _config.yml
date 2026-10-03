@@ -62,3 +62,10 @@ minima:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Only show these specific pages in the header navigation
+header_pages:
+  - publications.markdown
+  - updates.markdown
+  - posts.markdown

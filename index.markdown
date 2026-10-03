@@ -1,30 +1,51 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: homepage
-
+title: Home
 ---
 
+<div class="hero-profile">
+  <img src="{{ '/assets/img/IMG_0256.jpg' | relative_url }}" alt="Halim W. Awalurahman" class="profile_picture">
+  <div class="hero-info">
+    <h1>Halim W. Awalurahman</h1>
+    <p class="subtitle">Doctoral Candidate in Computer Science<br>Faculty of Computer Science, Universitas Indonesia (Fasilkom UI)</p>
+    <div class="hero-links">
+      <a href="mailto:{{ site.email }}">Email</a> | 
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a> | 
+      <a href="https://huggingface.co/hawalurahman" target="_blank">HuggingFace</a> | 
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a> | 
+      <a href="https://scholar.google.com/citations?user=kc6YyCoAAAAJ&hl=en" target="_blank">Google Scholar</a>
+    </div>
+  </div>
+</div>
 
-[This is a comment that will be hidden.]: # 
+## About Me
 
-
-# Halim W. Awalurahman
-
-Postgraduate Student at Faculty of Computer Science, Universitas Indonesia
-
-Currently researching: Natural Language Processing, Automatic Question Generation, Transformer Models, and Large Language Models
-
-## Latest Publications 
-
-- Awalurahman, H. W., Aji, R. F., & Budi, I. (2025). **Transformer and Large Language Models for Automatic Multiple-Choice Question Generation: A Systematic Literature Review**. *IEEE Access*. [Paper](10.1109/ACCESS.2025.3590423)
-- Awalurahman, H. W., & Budi, I. (2024, October). **Paragraph vs Sentence in Automatic Question Generation Fine-Tuning using Text-to-Text Transfer Transformer for Bahasa Indonesia**. *In 2024 10th International Conference on Education and Technology (ICET)* (pp. 155-161). IEEE. [Paper](https://doi.org/10.1109/ICET64717.2024.10778465)
-- Awalurahman, H. W., & Budi, I. (2024). **Automatic distractor generation in multiple-choice questions: a systematic literature review**. *PeerJ Computer Science*, 10, e2441. [Paper](https://peerj.com/articles/cs-2441/)
-
-##### <font color="grey">updated: July 28th, 2025</font>
-
-
-
+Currently researching **Natural Language Processing (NLP)**, **Automatic Question Generation (AQG)**, and **Large Language Model (LLM) evaluation**.
 
 
+
+## Recent Updates
+
+<ul style="padding-left: 20px; margin-top: 5px;">
+  {% assign sorted_updates = site.data.updates | sort: "date" | reverse %}
+  {% for update in sorted_updates limit:3 %}
+    <li style="margin-bottom: 6px;">
+      <small style="color: #777;">{{ update.date | date: "%b %Y" }}</small> — 
+      {{ update.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+    </li>
+  {% endfor %}
+</ul>
+<p><a href="{{ '/updates' | relative_url }}">View all updates &rarr;</a></p>
+
+
+
+## Latest Publications
+
+{% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
+{% for pub in sorted_pubs limit:3 %}
+  {% assign styled_authors = pub.authors | replace: "Halim Wildan Awalurahman", '<span style="text-decoration: underline;">Halim Wildan Awalurahman</span>' %}
+  - **{{ pub.title }}**  
+    {{ styled_authors }} ({{ pub.year }}). <em>{{ pub.venue }}</em>{% if pub.url %} <a href="{{ pub.url }}" target="_blank">[Paper]</a>{% endif %}
+{% endfor %}
+
+<p><a href="{{ '/publications' | relative_url }}">View all publications &rarr;</a></p>

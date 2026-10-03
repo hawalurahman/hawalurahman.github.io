@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-  /* Base (desktop + mobile) */
-  .profile_bar {
-    display: flex;
-    flex-direction: column;
-    /* stack image + text */
-    align-items: center;
-    /* horizontal centering */
-    text-align: center;
-    gap: 10px;
-  }
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  .profile_picture {
-    width: 144px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  /* Mobile only */
-  @media (max-width: 600px) {
-    .container {
-      flex-direction: column-reverse !important;
-    }
-
-    .item {
-      flex: 1 1 100% !important;
+<head>
+  {%- include head.html -%}
+  <style>
+    /* Hero profile styling */
+    .hero-profile {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 30px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #eaeaea;
     }
 
     .profile_picture {
-      max-width: 30%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      object-position: center 35%;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      flex-shrink: 0;
     }
-  }
-</style>
 
-{%- include head.html -%}
+    @media (max-width: 600px) {
+      .hero-profile {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
 
 <body>
 
@@ -43,32 +39,14 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 40px; " class="container">
-
-        <!-- Content -->
-        <div style="flex: 3;">
-          {{ content }}
-        </div>
-
-        <!-- Picture Profile -->
-        <div style="flex: 1;">
-          <div class="profile_bar">
-            <img src="assets/img/IMG_0256.jpg" alt="" , style="margin-bottom: 10px;" class="profile_picture">
-            <p>
-              <a href="mailto:{{ site.email }}">Email</a>
-              | <a href="http://github.com/{{site.github_username}}">GitHub</a>
-              | <a href="http://huggingface.co/hawalurahman">HuggingFace</a>
-              | <a href="http://linkedin.com/in/{{site.linkedin_username }}">LinkedIn</a>
-              | <a href="https://scholar.google.com/citations?user=kc6YyCoAAAAJ&hl=en">Google Scholar</a>
-            </p>
-          </div>
-        </div>
+      <!-- Page title header removed so it stays hidden -->
+      <div class="post-content">
+        {{ content }}
       </div>
     </div>
   </main>
 
-  <!-- {%- include footer.html -%} -->
+  {%- include footer.html -%}
 
 </body>
-
 </html>

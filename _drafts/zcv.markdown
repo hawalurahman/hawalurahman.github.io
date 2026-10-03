@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: page
 title: CV
 permalink: /cv/
 ---
@@ -20,11 +20,23 @@ Student researcher / [Scholar](https://scholar.google.com/citations?user=kc6YyCo
 
 ### Publications
 
-{% include publications.md %}
+{% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
+{% for pub in sorted_pubs %}
+<div style="margin-bottom: 20px;">
+  <p style="margin: 0 0 5px 0;">
+    <strong>{{ pub.title }}</strong>
+  </p>
+  <p style="margin: 0 0 5px 0; color: #555; font-size: 0.95rem;">
+    {% assign styled_authors = pub.authors | replace: "Halim Wildan Awalurahman", '<span style="font-weight: 600; text-decoration: underline; color: #0056b3;">Halim Wildan Awalurahman</span>' %}
+    {{ styled_authors }} ({{ pub.year }}). <em>{{ pub.venue }}</em>{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}.
+    {% if pub.url %}
+      <a href="{{ pub.url }}" target="_blank">[Paper]</a>
+    {% endif %}
+  </p>
+</div>
+{% endfor %}
 
 ### Experience
 
 - (2023 -- Now) Assistant Editor, [Journal of Information Systems Engineering and Business Intelligence](https://e-journal.unair.ac.id/JISEBI/index) 
-- (2022 - 2022) Web Developer (Intern), Dinas Komunikasi dan Informatika Kota Madiun 
-
-
+- (2022 - 2022) Web Developer (Intern), Dinas Komunikasi dan Informatika Kota Madiun

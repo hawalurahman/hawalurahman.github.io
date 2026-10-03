@@ -4,22 +4,17 @@ title: Updates
 permalink: /updates/
 ---
 
-## 2025
-- Presented 1 article at ICIC 2025
-- Presented 1 article at CETA 2025
-- Received PMDSU Research Grant (Second Year)
-- Started study at Faculty of Computer Science, Universitas Indonesia (Doctor of Computer Science)
-- Graduated from Universitas Indonesia (Master of Computer Science)
+{% assign sorted_updates = site.data.updates | sort: "date" | reverse %}
+{% assign grouped_updates = sorted_updates | group_by_exp: "item", "item.date | date: '%Y'" %}
 
-## 2024
-- Published 1 article at ICET 2024
-- Published 1 article at PeerJ Computer Science
-- Received PMDSU Research Grant (First Year)
-
-## 2023
-- Started study at Faculty of Computer Science, Universitas Indonesia (Master of Computer Science)
-- Received Pendidikan Magister menuju Doktor untuk Sarjana Unggul (PMDSU) Scholarship from the Ministry of Research, Technology, and Higher Education 
-- Graduated from Universitas Airlangga (Bachelor of Computer Science)
-
-
-
+{% for year_group in grouped_updates %}
+  <h2>{{ year_group.name }}</h2>
+  <ul>
+    {% for update in year_group.items %}
+      <li>
+        <small style="color: #777;">{{ update.date | date: "%b %d" }}</small> — 
+        {{ update.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
