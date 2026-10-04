@@ -11,8 +11,6 @@ title: Home
     <div class="hero-links">
       <a href="mailto:{{ site.email }}">Email</a> | 
       <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a> | 
-      <a href="https://huggingface.co/hawalurahman" target="_blank">HuggingFace</a> | 
-      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a> | 
       <a href="https://scholar.google.com/citations?user=kc6YyCoAAAAJ&hl=en" target="_blank">Google Scholar</a>
     </div>
   </div>
